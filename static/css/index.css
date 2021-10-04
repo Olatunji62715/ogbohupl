@@ -1,0 +1,226 @@
+/* general styling */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  user-select: none;
+  overflow-x: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* nav styling */
+
+.navbar{
+  background-color: rgba(0, 0, 0, .5);
+}
+.navbar-brand {
+  font-family: 'Fredericka the Great', cursive;
+  color: #b59049;
+  font-size: x-large;
+  font-weight: bolder;
+  list-style: none;
+
+}
+.nav-item{
+  font-family: 'Koh Santepheap', cursive;
+  font-size: medium;
+  font-weight: bolder;
+  list-style: none;
+  /* color: #b59049; */
+  margin: 3%;
+  margin-right: 10%;
+}
+ .nav-item a{
+  color: #b59049 !important; 
+  list-style: none;
+  text-decoration: none;
+} .nav-item a:hover {
+  border-bottom: 1px solid white;
+  list-style: none;
+  color: #b59049 !important; 
+  transition: 2s ease;
+}
+
+.nav-link{
+  /* color: white; */
+  list-style: none;
+}
+.nav-item .nav-link{
+margin-top: -9px;
+}
+.nav-item:hover{
+  color: white;
+    /* margin-top: 3px; */
+    /* font-size: large; */
+    font-weight: bolder;
+    list-style: none;
+    text-decoration: none;
+    /* text-underline-position: below; */
+    /* text-decoration: 3px #b59049  underline; */
+    
+  }
+  
+  
+
+/* dropdown styling */
+.dropdown-item{
+  color: black;
+    list-style: none;
+    
+
+}
+.dropdown-item:hover{
+  color: black;
+  font-weight: bolder;
+  
+  background-color: #dddddd;
+  border-right: 20px solid #b59049;
+}
+.icon1{
+  border: 2px solid #b59049;
+  color: #b59049;
+  border-radius: 70%;
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  margin-left: 50%;
+}
+#caro-btn{
+  background-color: transparent;
+  border-radius: 5px;
+  border: transparent;
+  padding: 3px;
+  border: 2px solid black;
+  margin-left: 25px;
+  background-color:#d49f3b ;
+}
+#caro-btn:hover{
+  background-color:#d49f3b ;
+}
+
+/* nav styling end */
+/* heropage styling */
+#hero{
+  height: 95vh;
+ width: auto;
+  background-image: url(../images/wine5.jpg);
+  background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ background-blend-mode: darken;
+ background-color: rgba(0, 0, 0, .5);
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+} 
+p{
+  color: #b59049;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+  color: #d49f3b;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Koh Santepheap', cursive;
+}
+h2{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+}
+h4{
+  /* background-color: rgb(224, 11, 11); */
+  height: fit-content;
+  border-radius: 5px;
+  text-align: center;
+  width: fit-content;
+  padding: 5px;
+  margin-left: 40%;
+  color: rgba(10, 10, 10);
+  
+}
+h5{
+  color: rgb(221, 221, 188)!important;
+  text-align: center !important;
+}
+.btn{
+  align-items: center;
+  margin-left: 45%;
+}
+.shopnow{
+  margin-left: 46%
+}
+@media screen and (max-width:658px) {
+  .shopnow{
+    margin-left: 42%
+  }
+}
+marquee{
+  height: 50px;
+  background-color: black;
+  width: auto;
+  padding: 5px;
+  color: #c49e58;
+}
+#about{
+  /* padding: 5%; */
+  height: fit-content !important;
+}
+.owl-carousel.p{
+  font-family: 'Courier New', Courier, monospace !important;
+  font-size: 20px!important;
+
+}
+
+
+
+p{
+  color: rgb(17, 17, 17)!important;
+}
+
+
+/* footer styling */
+ 
+  footer{
+    margin-top: 4%;
+  }
+  .text-small {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background: #212529;
+  }
+  
+  
+ 
+
+
+
+

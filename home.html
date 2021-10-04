@@ -1,0 +1,1313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/home.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<!-- NAV FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300&display=swap" rel="stylesheet">
+    <!-- NAVBRAND -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    
+    <!-- h2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <!-- h3-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+    <!-- p -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+  <script src="static/js/owl.carousel.min.js"></script>
+    <title>STORE</title>
+  </head>
+  <style>
+    .box1{
+      height: 400px;
+   }
+   .box2{
+      height: 200px;
+      padding: 2%;
+      display: block;
+      justify-content: space-around;
+   }
+
+   @media screen and (max-width: 991px) {
+    .aside2{display: none;}
+    aside{height: fit-content !important;}
+    }
+
+
+  </style>
+  <body>
+     <!-- navbar -->
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+    <!-- product -->
+    <div class="row" id="products">
+        <!-- aside -->
+        <div class="col-lg-3 col-sm-12 sticky-top">
+            
+            <aside class="sticky-top d-flex">
+                <div class="col-12">
+                    <div class=" aside1">
+                        <div class="d-flex justify-content-between px-2" id="brand-name">
+                            <a class="navbar-brand mt-3 col-9" href="index.html" >LIQUOR STORE</a>
+                             <div class="d-flex">
+                                <div class="toggle_cart mt-3 d-flex col-3">
+                                    <i class="fa fa-shopping-cart fa-2x"></i>
+                                    <span><span id="count" class="px-1" style="background: red; font-size: 15px; position: absolute; border-radius: 50%; margin-top: -5px; margin-left: -10px;">0</span></span>
+                               </div>
+                               <i class="fa fa-bars aside_toggler my-4 mx-4 d-block d-lg-none"></i>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="aside2">
+                        <ul>
+                            <form class="col-12">
+                                <div class="d-flex">
+                                    
+                                    <div class="inputbox">
+                                        <i class="fa fa-search" aria-hidden="true"></i><input type="search"placeholder="search">
+                                      </div>
+                                </div>
+                            
+                            </form>
+                            
+                        </ul>
+                        <ul>
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link dropdown-toggle" href="#wine" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                WINE
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#wine">Alcoholic</a></li>
+                                    <li><a class="dropdown-item" href="#">Non-alcoholic</a></li>
+                                
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="home.html">HOME</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#whisky">WHISKY</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#brandy">BRANDY</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#gin">GIN</a>
+                            </li>
+                            <li class="nav-item ">
+                            <a href="#bitters">BITTERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#juice">JUICE</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                            <a href="#schinnaps">SCHINNAPS</a>
+                            </li> 
+                            <li class="nav-item">
+                            <a href="#creams">CREAMS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+         </div>
+       
+        <!-- products card -->
+        <div class="col-lg-9 col-sm-12 px-5">
+       
+
+            <div class="row my-0 my-lg-3" id="top-offers"> 
+                <h2 style="background-color: #d49f3b; padding: 5px; width: fit-content; color: black; border-radius: 3px;" >TOP OFFERS</h2> 
+                <!-- carousel -->
+                <div class="owl-carousel" pt-5 style="background: #eee;padding: 3%;">
+                  <div class="item col-8 mx-auto">
+                      <img src="static/images/gin5.jpg" alt="" class="image-fluid col-12">
+                      <p style="font-size: small; margin-top: 25%;">GIN - $1.99<sup>99</sup></p>
+                      <button  id="caro-btn">shop now</button>
+                  </div>
+                  <div class="item col-8 mx-auto">
+                      <img src="static/images/WHISKY.jpg" alt="" class="image-fluid col-12">
+                      <p style="font-size: small; margin-top: 20%;">WHISKY - $1.99<sup>99</sup></p>
+                      <button  id="caro-btn">shop now</button>
+                  </div>
+                  <div class="item col-8 mx-auto">
+                      <img src="static/images/WHIS1.jpg" alt="" class="image-fluid col-12">
+                      <p style="font-size: small; margin-top: 25%;">WHISKY - $1.99<sup>99</sup></p>
+                      <button  id="caro-btn">shop now</button>
+                  </div>
+                  <div class="item col-8 mx-auto">
+                      <img src="static/images/hennessy.jpg" alt="" class="image-fluid col-12">
+                      <p style="font-size: small;">HENNESSY - $1.99<sup>99</sup></p>
+                      <button  id="caro-btn">shop now</button>
+                  </div>
+                  <div class="item col-8 mx-auto">
+                      <img src="static/images/gin3.jpg" alt="" class="image-fluid col-12">
+                      <p style="font-size: small; margin-top: 25%;">GIN - $1.99<sup>99</sup></p>
+                      <button  id="caro-btn">shop now</button>
+                  </div>
+                </div>
+              </div>  
+              <!-- carousel end-->
+           <!-- wine -->
+           <div class="box9">
+             <!-- ROW1 -->
+               <div class="row"  id="wine">
+               <p style="font-size: 40px; padding-top: 3%;color: black;">WINE</p>
+                 <div class="col-lg-4 col-md-3 col-sm-6">
+                     <div class="product-grid">
+                         <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/WHISKY.jpg">
+                               <img class="pic-2" src="static/images/WHISKY.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Buffalo Trace W.L. Weller 12</a></h3>
+                           <div class="price">$<span>85.55</span></div>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/WHISKY1.jpg">
+                             <img class="pic-2" src="static/images/WHISKY1.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Tullamore D.E.W. "Phoenix" Irish Whiskey</a></h3>
+                         <div class="price">$<span>85.55</span></div>
+                     </div>
+                 </div>
+               </div>
+   
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/WHIS1.jpg">
+                               <img class="pic-2" src="static/images/WHIS1.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Highland Park Ice Edition</a></h3>
+                           <div class="price">$<span>88.88</span></div>
+                       </div>
+                   </div>
+               </div>
+             </div>
+             <!-- ROW2 -->
+             <div class="row p-2">
+                 <div class="col-lg-4 col-md-3 col-sm-6">
+                     <div class="product-grid">
+                         <div class="product-image">
+                             <a href="#" class="image">
+                                 <img class="pic-1" src="static/images/whisky3.jpg">
+                                 <img class="pic-2" src="static/images/whisky3.jpg">
+                             </a>
+                             <ul class="product-links">
+                                 <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-search"></i></a></li>
+                             </ul>
+                         </div>
+                         <div class="product-content">
+                             <ul class="rating">
+                                 <li class="fa fa-star"></li>
+                                 <li class="fa fa-star"></li>
+                                 <li class="fa fa-star"></li>
+                                 <li class="fa fa-star"></li>
+                                 <li class="fa fa-star"></li>
+                             </ul>
+                             <h3 class="title"><a href="#">Blanton's Original Single Barrel Bourbon</a></h3>
+                             <div class="price">$<span>85.55</span></div>
+                         </div>
+                     </div>
+                 </div>
+     
+                 <div class=" col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/whisky6.jpg">
+                               <img class="pic-2" src="static/images/whisky6.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Jefferson’s Ocean</a></h3>
+                           <div class="price">$<span>85.55</span></div>
+                       </div>
+                   </div>
+                 </div>
+     
+     
+                 <div class=" col-lg-4 col-md-3 col-sm-6">
+                     <div class="product-grid">
+                         <div class="product-image">
+                             <a href="#" class="image">
+                                 <img class="pic-1" src="static/images/whiky5.jpg">
+                                 <img class="pic-2" src="static/images/whiky5.jpg">
+                             </a>
+                             <ul class="product-links">
+                                 <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-search"></i></a></li>
+                             </ul>
+                         </div>
+                         <div class="product-content">
+                             <ul class="rating">
+                                 <li class="fa fa-star"></li>
+                                 <li class="fa fa-star"></li>
+                                 <li class="fa fa-star"></li>
+                                 <li class="fa fa-star"></li>
+                                 <li class="fa fa-star"></li>
+                             </ul>
+                             <h3 class="title"><a href="#">Hibiki 17</a></h3>
+                             <div class="price">$<span>88.88</span></div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+           </div>
+         
+         <!--  whisky-->
+         <div class="box5">
+           <!-- ROW1 -->
+             <div class="row"  id="whisky">
+             <p style="font-size: 40px; padding-top: 3%;color: black;">WHISKEY</p>
+               <div class="col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/WHISKY.jpg">
+                             <img class="pic-2" src="static/images/WHISKY.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Buffalo Trace W.L. Weller 12</a></h3>
+                         <div class="price">$<span>85.55</span></div>
+                     </div>
+                 </div>
+             </div>
+ 
+             <div class=" col-lg-4 col-md-3 col-sm-6">
+               <div class="product-grid">
+                   <div class="product-image">
+                       <a href="#" class="image">
+                           <img class="pic-1" src="static/images/WHISKY1.jpg">
+                           <img class="pic-2" src="static/images/WHISKY1.jpg">
+                       </a>
+                       <ul class="product-links">
+                           <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                           <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                           <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                       </ul>
+                   </div>
+                   <div class="product-content">
+                       <ul class="rating">
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                       </ul>
+                       <h3 class="title"><a href="#">Tullamore D.E.W. "Phoenix" Irish Whiskey</a></h3>
+                       <div class="price">$<span>85.55</span></div>
+                   </div>
+               </div>
+             </div>
+ 
+ 
+             <div class=" col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/WHIS1.jpg">
+                             <img class="pic-2" src="static/images/WHIS1.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Highland Park Ice Edition</a></h3>
+                         <div class="price">$<span>88.88</span></div>
+                     </div>
+                 </div>
+             </div>
+           </div>
+           <!-- ROW2 -->
+           <div class="row p-2">
+               <div class="col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/whisky3.jpg">
+                               <img class="pic-2" src="static/images/whisky3.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Blanton's Original Single Barrel Bourbon</a></h3>
+                           <div class="price">$<span>85.55</span></div>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/whisky6.jpg">
+                             <img class="pic-2" src="static/images/whisky6.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Jefferson’s Ocean</a></h3>
+                         <div class="price">$<span>85.55</span></div>
+                     </div>
+                 </div>
+               </div>
+   
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/whiky5.jpg">
+                               <img class="pic-2" src="static/images/whiky5.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Hibiki 17</a></h3>
+                           <div class="price">$<span>88.88</span></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+         </div>
+         <!-- brandy -->
+         <div class="box6">
+           <!-- row3 -->
+           <div class="row" id="brandy">
+             <p style="font-size: 40px; padding-top: 3%;color: black;">BRANDY</p>
+             <div class="col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/brandy.jpg">
+                             <img class="pic-2" src="static/images/brandy.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Courvoisier</a></h3>
+                         <div class="price">$<span>85.55</span></div>
+                     </div>
+                 </div>
+             </div>
+ 
+             <div class=" col-lg-4 col-md-3 col-sm-6">
+               <div class="product-grid">
+                   <div class="product-image">
+                       <a href="#" class="image">
+                           <img class="pic-1" src="static/images/BRANDY1.jpg">
+                           <img class="pic-2" src="static/images/BRANDY1.jpg">
+                       </a>
+                       <ul class="product-links">
+                           <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                           <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                           <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                       </ul>
+                   </div>
+                   <div class="product-content">
+                       <ul class="rating">
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                       </ul>
+                       <h3 class="title"><a href="#">John Exshaw</a></h3>
+                       <div class="price">$<span>85.55</span></div>
+                   </div>
+               </div>
+             </div>
+ 
+ 
+             <div class=" col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/BRANDY2.jpg">
+                             <img class="pic-2" src="static/images/BRANDY2.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">TI Courrier Napoleon</a></h3>
+                         <div class="price">$<span>88.88</span></div>
+                     </div>
+                 </div>
+             </div>
+           </div>
+           <!-- ROW4 -->
+           <div class="row p-2">
+               <div class="col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/brand3.jpg">
+                               <img class="pic-2" src="static/images/brand3.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Morpheus</a></h3>
+                           <div class="price">$<span>85.55</span></div>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/hennessy.jpg">
+                             <img class="pic-2" src="static/images/hennessy.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Hennessy</a></h3>
+                         <div class="price">$<span>85.55</span></div>
+                     </div>
+                 </div>
+               </div>
+   
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/brand4.jpg">
+                               <img class="pic-2" src="static/images/brand4.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">McDowell’s №1</a></h3>
+                           <div class="price">$<span>88.88</span></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+         </div>
+         <!-- gin -->
+         <div class="box7">
+           <!-- row5 -->
+           <div class="row" id="gin">
+             <p style="font-size: 40px; padding-top: 3%;color: black;">GIN</p>
+             <div class="col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/gin.jpg">
+                             <img class="pic-2" src="static/images/gin.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Bombay Sapphire Gin</a></h3>
+                         <div class="price">$<span>85.55</span></div>
+                     </div>
+                 </div>
+             </div>
+ 
+             <div class=" col-lg-4 col-md-3 col-sm-6">
+               <div class="product-grid">
+                   <div class="product-image">
+                       <a href="#" class="image">
+                           <img class="pic-1" src="static/images/GIN1.jpeg">
+                           <img class="pic-2" src="static/images/GIN1.jpeg">
+                       </a>
+                       <ul class="product-links">
+                           <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                           <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                           <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                       </ul>
+                   </div>
+                   <div class="product-content">
+                       <ul class="rating">
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                       </ul>
+                       <h3 class="title"><a href="#">Beefeater</a></h3>
+                       <div class="price">$<span>85.55</span></div>
+                   </div>
+               </div>
+             </div>
+ 
+ 
+             <div class=" col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/GIN2.jpg">
+                             <img class="pic-2" src="static/images/GIN2.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Portobello Road Gin</a></h3>
+                         <div class="price">$<span>88.88</span></div>
+                     </div>
+                 </div>
+             </div>
+           </div>
+           
+           <!-- ROW6 -->
+           <div class="row p-3">
+               <div class="col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/gin3.jpg">
+                               <img class="pic-2" src="static/images/gin3.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Greenall’s Dry Gin</a></h3>
+                           <div class="price">$<span>85.55</span></div>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/gin6.jpg">
+                             <img class="pic-2" src="static/images/gin6.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Gordon’s Dry Gin</a></h3>
+                         <div class="price">$<span>85.55</span></div>
+                     </div>
+                 </div>
+               </div>
+   
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/gin5.jpg">
+                               <img class="pic-2" src="static/images/gin5.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Seagram’s Extra Dry Gin</a></h3>
+                           <div class="price">$<span>88.88</span></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+         </div>
+         <!-- BITTERS -->
+         <div class="box8">
+           <!-- row7 -->
+           <div class="row" id="bitters">
+             <p style="font-size: 40px; padding-top: 3%;color: black;">BITTERS</p>
+             <div class="col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/BITTERS.jpg">
+                             <img class="pic-2" src="static/images/BITTERS.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Bombay Sapphire Gin</a></h3>
+                         <div class="price">$<span>85.55</span></div>
+                     </div>
+                 </div>
+             </div>
+   
+             <div class=" col-lg-4 col-md-3 col-sm-6">
+               <div class="product-grid">
+                   <div class="product-image">
+                       <a href="#" class="image">
+                           <img class="pic-1" src="static/images/bitters4.jpg">
+                           <img class="pic-2" src="static/images/bitters4.jpg">
+                       </a>
+                       <ul class="product-links">
+                           <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                           <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                           <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                       </ul>
+                   </div>
+                   <div class="product-content">
+                       <ul class="rating">
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                           <li class="fa fa-star"></li>
+                       </ul>
+                       <h3 class="title"><a href="#">Beefeater</a></h3>
+                       <div class="price">$<span>85.55</span></div>
+                   </div>
+               </div>
+             </div>
+   
+   
+             <div class=" col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/bitters2.jpg">
+                             <img class="pic-2" src="static/images/bitters2.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Portobello Road Gin</a></h3>
+                         <div class="price">$<span>88.88</span></div>
+                     </div>
+                 </div>
+             </div>
+           </div>
+           
+           <!-- ROW8 -->
+           <div class="row p-3">
+               <div class="col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/bitters4.jpg">
+                               <img class="pic-2" src="static/images/bitters4.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Greenall’s Dry Gin</a></h3>
+                           <div class="price">$<span>85.55</span></div>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                 <div class="product-grid">
+                     <div class="product-image">
+                         <a href="#" class="image">
+                             <img class="pic-1" src="static/images/bitters5.jpg">
+                             <img class="pic-2" src="static/images/bitters5.jpg">
+                         </a>
+                         <ul class="product-links">
+                             <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                             <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                             <li><a href="#"><i class="fa fa-search"></i></a></li>
+                         </ul>
+                     </div>
+                     <div class="product-content">
+                         <ul class="rating">
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                             <li class="fa fa-star"></li>
+                         </ul>
+                         <h3 class="title"><a href="#">Gordon’s Dry Gin</a></h3>
+                         <div class="price">$<span>85.55</span></div>
+                     </div>
+                 </div>
+               </div>
+   
+   
+               <div class=" col-lg-4 col-md-3 col-sm-6">
+                   <div class="product-grid">
+                       <div class="product-image">
+                           <a href="#" class="image">
+                               <img class="pic-1" src="static/images/bitters2.jpg">
+                               <img class="pic-2" src="static/images/bitters2.jpg">
+                           </a>
+                           <ul class="product-links">
+                               <li><a href="#"><i class="fa fa-shopping-cart add_to_cart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                               <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                               <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           </ul>
+                       </div>
+                       <div class="product-content">
+                           <ul class="rating">
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                               <li class="fa fa-star"></li>
+                           </ul>
+                           <h3 class="title"><a href="#">Seagram’s Extra Dry Gin</a></h3>
+                           <div class="price">$<span>88.88</span></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+         </div>
+        </div>
+     </div>
+    <!-- product end -->
+  
+  
+    
+    <!-- Cart -->
+    <div class="cart_container fixed-top p-3" style="background: #eee; height: 100vh; width: 100vw; display: none;" >
+        <i class="fa fa-arrow-circle-o-left fa-2x"></i>
+        <div class="cart d-flex flex-wrap" style="overflow-y: scroll; height: 90%;">
+
+        </div>
+        <div class="total col-6 d-flex justify-content-end">
+            <h3>Total: $<span id="total">0.00</span></h3>
+            
+        </div>
+      
+
+        <div class="card">
+            <div class="card-top border-bottom text-center"> <a href="#"> Back to shop</a> <span id="logo">BBBootstrap.com</span> </div>
+            <div class="card-body">
+                <div class="row upper"> <span><i class="fa fa-check-circle-o"></i> Shopping bag</span> <span><i class="fa fa-check-circle-o"></i> Order details</span> <span id="payment"><span id="three">3</span>Payment</span> </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="left border">
+                            <div class="row"> <span class="header">Payment</span>
+                                <div class="icons"> <img src="https://img.icons8.com/color/48/000000/visa.png" /> <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" /> <img src="https://img.icons8.com/color/48/000000/maestro.png" /> </div>
+                            </div>
+                            <form> <span>Cardholder's name:</span> <input placeholder="Linda Williams"> <span>Card Number:</span> <input placeholder="0125 6780 4567 9909">
+                                <div class="row">
+                                    <div class="col-4"><span>Expiry date:</span> <input placeholder="YY/MM"> </div>
+                                    <div class="col-4"><span>CVV:</span> <input id="cvv"> </div>
+                                </div> <input type="checkbox" id="save_card" class="align-left"> <label for="save_card">Save card details to wallet</label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="right border">
+                            <div class="header">Order Summary</div>
+                            <p>2 items</p>
+                            <div class="row item">
+                                <div class="col-4 align-self-center"><img class="img-fluid" src="https://i.imgur.com/79M6pU0.png"></div>
+                                <div class="col-8">
+                                    <div class="row"><b>$ 26.99</b></div>
+                                    <div class="row text-muted">Be Legandary Lipstick-Nude rose</div>
+                                    <div class="row">Qty:1</div>
+                                </div>
+                            </div>
+                            <div class="row item">
+                                <div class="col-4 align-self-center"><img class="img-fluid" src="https://i.imgur.com/Ew8NzKr.jpg"></div>
+                                <div class="col-8">
+                                    <div class="row"><b>$ 19.99</b></div>
+                                    <div class="row text-muted">Be Legandary Lipstick-Sheer Navy Cream</div>
+                                    <div class="row">Qty:1</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row lower">
+                                <div class="col text-left">Subtotal</div>
+                                <div class="col text-right">$ 46.98</div>
+                            </div>
+                            <div class="row lower">
+                                <div class="col text-left">Delivery</div>
+                                <div class="col text-right">Free</div>
+                            </div>
+                            <div class="row lower">
+                                <div class="col text-left"><b>Total to pay</b></div>
+                                <div class="col text-right"><b>$ 46.98</b></div>
+                            </div>
+                            <div class="row lower">
+                                <div class="col text-left"><a href="#"><u>Add promo code</u></a></div>
+                            </div> <button class="btn">Place order</button>
+                            <p class="text-muted text-center">Complimentary Shipping & Returns</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div> </div>
+        </div>
+           
+    </div>
+   <!-- cart end -->
+   
+   <!-- product description -->
+   <div class="product_info fixed-top col-12 p-3" style="overflow: scroll; height: 100vh; background-color: #eee; display: none;"  id="cont3" >
+      <div class="fa fa-arrow-circle-o-left back fa-2x"></div>
+      <div class="row mx-0">
+        <div class="col-12 col-md-6">
+            <div class="cont1 sticky-top col-12">
+                <div class="col-12 long" style="height: 400px;">
+                <img src="static/images/WHISKY.jpg" class="image-fluid col-12" id="view-image" alt=""></div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="cont">
+                <div class="cont3">
+                    <div class="cont3x">3214
+                        <h3 style="color: black;">Description <br></h3>
+                        <p style="color: black; margin-top: 3%; font-size: x-large;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, eum expedita aliquam rem quo quae tempora laboriosam facilis perferendis excepturi quis, corporis similique commodi sit odio earum recusandae nam aspernatur.</p>
+                    </div>
+                </div>
+             <!-- product details -->
+                <div class="cont3 d-flex col-12 px-2 my-3" style="overflow: hidden;">
+                    <div class="number_of_items d-flex col-6 justify-content-evenly">
+                        <span class="minus col-4 text-center" style="background: #ddd;">-</span>
+                        <span class="number col-4 text-center">1</span>
+                        <span class="plus col-4 text-center" style="background: #ddd;">+</span>
+                    </div>
+                    <button class="col-6 btn-outline-success">add cart</button>
+                </div>
+                <textarea name="" placeholder="Type comment..." id="" class="col-12 p-2 mt-5" rows="3" style="border: none; outline: none;"></textarea>
+                
+
+                
+            </div>
+        </div>
+      </div>
+   </div>
+   <!-- product description  end -->
+   
+   
+   
+   <!-- CHECKOUT -->
+   
+   
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1 text-white">FB.</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#wine">Wine</a></li>
+                        <li><a href="#whiskey">Whiskey</a></li>
+                        <li><a href="#bitters">Bitters</a></li>
+                        <li><a href="#juice">Juice</a></li>
+                        <li><a href="#cream">Cream</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+   
+   
+    
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items: 5
+                    }
+                }
+            })
+
+     var view = document.querySelectorAll('.fa-eye')
+            $(view).click(function(e){
+                $('.product_info').css('display','block')
+                var pic = e.target.parentNode.parentNode.parentNode.parentNode.parentNode.children[0].children[0].children[0].src
+                var view_image = document.querySelector('#view-image')
+                view_image.src = pic
+            })
+            $('.back').click(function(){
+                $('.product_info').css('display','none')
+            })
+            var number = document.querySelector('.number')
+            var num = 1
+            $('.plus').click(function(){
+                number.textContent = ++num
+            })
+            $('.minus').click(function(){
+                number.textContent = --num
+            })
+
+            $(".toggle_cart").click(function(){
+                $(".cart_container").fadeIn()
+            })
+            $(".fa-arrow-circle-o-left").click(function(){
+                $(".cart_container").fadeOut()
+            })
+            var ttl = 0
+            $(".add_to_cart").click(function(e){
+                var parent = e.target.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode
+                var clone = parent.cloneNode(true)
+                var cart = document.querySelector(".cart")
+                cart.appendChild(clone)
+                var count = document.querySelector("#count")
+                count.textContent = cart.children.length
+
+                var total = document.querySelector("#total")
+                var price = parseInt(clone.children[0].children[1].children[2].children[0].textContent)
+                ttl = price + ttl
+                total.textContent = ttl
+            })
+            $(".aside_toggler").click(function(){
+                $(".aside2").slideToggle()
+            })
+
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
