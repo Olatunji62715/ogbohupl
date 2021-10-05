@@ -3,12 +3,16 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  user-select: none;
+  user-select: none
+  
+
 }
 
-body{
+ body{
   overflow-x: hidden;
+  
 }
+
 
 /* nav styling */
 
@@ -103,7 +107,7 @@ margin-top: -9px;
 /* nav styling end */
 /* heropage styling */
 #hero{
-  height: 95vh;
+  height: 80vh;
  width: auto;
   background-image: url(../images/wine5.jpg);
   background-size: cover;
